@@ -40,6 +40,7 @@ const InfiniteScroll = (options) => {
     return () => {
       observer.disconnect();
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [loadMore, list])
 
   return [offset, wrapper, loader];
