@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Loader = () => {
+const Loader = ({loader}) => {
   return (
-    <div className="loader">
+    <div className="loader" ref={loader}>
     </div>
   );
 }

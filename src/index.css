@@ -14,11 +14,6 @@ code {
     monospace;
 }
 
-.App {
-  padding-left: 150px;
-  padding-right: 150px;
-}
-
 ul {
   list-style: none;
 }
@@ -28,6 +23,13 @@ ul {
   border-width: 1px;
   padding: 10px;
   border-radius: 10px;
+}
+
+#list-wrapper {
+  overflow-y: auto;
+  height: 100vh;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 /* just some loader i copied from the internet */

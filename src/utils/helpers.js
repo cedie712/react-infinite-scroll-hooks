@@ -1,5 +1,6 @@
 export const http = async (httpRequestFunction) => {
-  // await new Promise(r => setTimeout(r, 2600));
+  // mock reponse delay (sleep)
+  await new Promise(r => setTimeout(r, 3600));
   return httpRequestFunction
   .then((response) => {
     return response.data
